@@ -1,0 +1,55 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+.header_container {
+    display: flex;
+    flex-direction: row;
+}
+.name {
+    margin: auto 10px;
+    padding-right: 100px;
+}
+.new_products, .sales, .top_sales, .faq {
+    margin: auto 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile {
+    margin: auto 10px auto auto;
+}
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.profile a img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.top_container {
+    display: flex;
+    flex-direction: row;
+}
+.top_container div {
+    border-radius: 10px;
+}
+.catalog {
+    display: flex;
+    flex-direction: row;
+}
+.catalog a img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+#catalog_name {
+    margin: auto 10px;
+    font-size: 20px;
+}
+.catalog * {
+    margin: auto auto;
+}
