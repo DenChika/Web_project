@@ -1,0 +1,26 @@
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+}
+.header_container {
+    display: flex;
+    flex-direction: row;
+}
+.name {
+    margin: auto 1%;
+    padding-right: 5%;
+}
+.new_products, .sales, .top_sales, .faq {
+    margin: auto 2%;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.profile {
+    margin: auto 5px auto auto;
+}
+.profile a img {
+    height: 40px;
+    width: 40px;
+}
