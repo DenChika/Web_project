@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+    color: black;
+}
+.footer {
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
+#footer_information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contact_information {
+    display: flex;
+    flex-direction: column;
+}
+#contact_information p {
+    margin-bottom: 0;
+}
+#contact_information ul {
+    margin-top: 0;
+}
+#footer_information div {
+    margin: auto 10px;
+    padding-top: 10px;
+}
+#footer_information p {
+    margin: auto;
+}
+#footer_information p:nth-child(3) {
+    margin-right: 10px;
+}
