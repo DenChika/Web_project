@@ -19,7 +19,7 @@
     margin-left: 10px;
     padding-top: 3px;
 }
-#catalog_name {
+.catalog_name {
     margin: auto 10px;
     font-size: 15px;
     text-transform: uppercase;
@@ -27,17 +27,17 @@
 .catalog * {
     margin: auto auto;
 }
-#search_bar {
+.search_bar {
     margin: auto 0 auto 4%;
     width: 30%;
 }
-#search_bar input[type="text"] {
+.search_bar input[type="text"] {
     height: 40px;
     width: 80%;
     padding-left: 20px;
     font-size: 15px;
 }
-#search_bar input[type="submit"] {
+.search_bar input[type="submit"] {
     position: absolute;
     width: 40px;
     height: 46px;
@@ -68,10 +68,10 @@
     height: 45px;
     width: 45px;
 }
-#cart_name {
+.cart_name {
     font-size: 15px;
 }
-#cart_name p {
+.cart_name p {
     margin-top: 0;
     margin-left: 5px;
     margin-bottom: 9px;

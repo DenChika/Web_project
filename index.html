@@ -5,7 +5,8 @@
     <link href="styles/header_container.css" rel="stylesheet">
     <link href="styles/top_container.css" rel="stylesheet">
     <link href="styles/main_container.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/statistics_table.css" rel="stylesheet">
+    <link href="styles/footer_information.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="CubeStore, кубстор, головоломки">
@@ -16,7 +17,7 @@
     <header>
       <section class="header_container">
         <a href="/Web_project/" title="Главная страница cubestore.ru">
-          <img id="main_logo" class="logo" src="photo/logo.png" alt="Go Home">
+          <img class="logo" src="photo/logo.png" alt="Go Home">
         </a>
         <h2 class="name">
           CubeStore
@@ -64,12 +65,12 @@
           <img src="photo/catalog.png">
         </a>
         <div>
-          <a id="catalog_name" href="#">
+          <a class="catalog_name" href="#">
             Каталог
           </a>
         </div>
       </div>
-      <div id="search_bar">
+      <div class="search_bar">
         <form action="/products" method="get">
           <input type="text" placeholder="Что будем искать?" class="input_search" name="keyword" autocomplete="on">
           <input type="submit" value title="Найти">
@@ -88,7 +89,7 @@ _________      ___.            _________ __
           <img src="photo/cart.png">
         </a>
         <div>
-          <a id="cart_name" href="#">
+          <a class="cart_name" href="#">
             <p>ПАМОЙКА</p>
             <p>0 р.</p>
           </a>
@@ -96,13 +97,14 @@ _________      ___.            _________ __
       </div>
     </section>
     <section class="main_container">
-      <table class="statistics_table">
-        <caption>
-          <h3>
-            Статистика по хитам кубов NxN
-          </h3>
-        </caption>
-        <tbody class="statistics_table_body">
+      <div class="table_wrap">
+        <table class="statistics_table">
+          <caption>
+            <h3>
+              Статистика по хитам кубов NxN
+            </h3>
+          </caption>
+          <tbody class="statistics_table_body">
           <tr>
             <th></th>
             <th>Модель</th>
@@ -193,13 +195,14 @@ _________      ___.            _________ __
             <td>2</td>
             <td>Нет</td>
           </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
   <footer class="footer">
-    <div id="footer_information">
-      <div id="contact_information">
+    <div class="footer_information">
+      <div class="contact_information">
         <p>
           Контактная информация:
         </p>
