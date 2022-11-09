@@ -27,3 +27,8 @@
 .footer_information p:nth-child(3) {
     margin-right: 10px;
 }
+#page_load_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
