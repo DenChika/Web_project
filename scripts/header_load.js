@@ -8,28 +8,28 @@ let headerText =
         </h2>
         <div class="new_products">
             <nav>
-                <a href="new_products.html" title="Новинки">
+                <a href="new_products.html" id="new_products" title="Новинки">
                     Новинки
                 </a>
             </nav>
         </div>
         <div class="sales">
             <nav>
-                <a href="sales.html" title="Распродажа">
+                <a href="sales.html" id="sales" title="Распродажа">
                     Распродажа
                 </a>
             </nav>
         </div>
         <div class="top_sales">
             <nav>
-                <a href="top_sales.html" title="Топ продаж">
+                <a href="top_sales.html" id="top_sales" title="Топ продаж">
                     Топ продаж
                 </a>
             </nav>
         </div>
         <div class="faq">
             <nav>
-                <a href="faq.html" title="FAQ">
+                <a href="faq.html" id="faq" title="FAQ">
                     FAQ
                 </a>
             </nav>

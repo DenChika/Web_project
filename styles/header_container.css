@@ -17,6 +17,9 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+#new_products:hover, #sales:hover, #top_sales:hover, #faq:hover {
+    color: rgba(255,148,76,0.98);
+}
 .profile {
     margin: auto 5px auto auto;
 }
