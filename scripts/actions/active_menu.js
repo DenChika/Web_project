@@ -6,8 +6,7 @@ let pages = {
 };
 
 function pageIsActive() {
-    let pageId = pages[document.location.pathname.split('/').pop()];
-    //document.getElementById(pageId).style.color = "rgba(255,148,76,0.98)";
+    let pageId = pages[document.location.pathname.split('/').pop()]
     document.getElementById(pageId).style.borderBottom = "2px solid rgba(255,148,76,0.98)"
 }
 
