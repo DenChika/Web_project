@@ -1,7 +1,7 @@
 let topText =
     `<div class="catalog">
             <a href="#" title="Каталог">
-                <img src="photo/catalog.png">
+                <img src="resources/icons/catalog.png">
             </a>
             <div>
                 <a class="catalog_name" href="#">
@@ -26,7 +26,7 @@ _________      ___.            _________ __
           </pre>
         <div class="cart">
             <a href="#" title="Корзина">
-                <img src="photo/cart.png">
+                <img src="resources/icons/cart.png">
             </a>
             <div>
                 <a class="cart_name" href="#">

@@ -1,7 +1,7 @@
 let headerText =
     `<section class="header_container">
         <a href="/Web_project/" title="Главная страница cubestore.ru">
-            <img class="logo" src="photo/logo.png" alt="Go Home">
+            <img class="logo" src="resources/icons/logo.png" alt="Go Home">
         </a>
         <h2 class="name">
             CubeStore
