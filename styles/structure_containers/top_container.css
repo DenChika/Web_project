@@ -2,7 +2,8 @@
     position: sticky;
     top: 0;
     display: flex;
-    background-color: white;
+    background-color: #fcdea4;
+    z-index: 2;
     flex-direction: row;
 }
 .top_container div {
@@ -42,7 +43,7 @@
     position: absolute;
     width: 40px;
     height: 46px;
-    background: url(../photo/search.png) no-repeat center;
+    background: url(../../resources/icons/search.png) no-repeat center;
     background-size: 30px;
     border: none;
     cursor: pointer;
