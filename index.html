@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/header_container.css" rel="stylesheet">
-    <link href="styles/top_container.css" rel="stylesheet">
-    <link href="styles/main_container.css" rel="stylesheet">
-    <link href="styles/statistics_table.css" rel="stylesheet">
-    <link href="styles/footer_information.css" rel="stylesheet">
-    <script src="scripts/page_load_time.js"></script>
-    <script src="scripts/header_load.js"></script>
-    <script src="scripts/footer_load.js"></script>
-    <script src="scripts/top_container_load.js"></script>
-    <script src="scripts/activeMenu.js"></script>
+    <link href="styles/main_stylesheets/style.css" rel="stylesheet">
+    <link href="styles/structure_containers/header_container.css" rel="stylesheet">
+    <link href="styles/structure_containers/top_container.css" rel="stylesheet">
+    <link href="styles/structure_containers/main_container.css" rel="stylesheet">
+    <link href="styles/elements/statistics_table.css" rel="stylesheet">
+    <link href="styles/structure_containers/footer_information.css" rel="stylesheet">
+    <link href="styles/elements/item.css" rel="stylesheet">
+    <link href="styles/filter_forms/filter_brands.css" rel="stylesheet">
+    <script src="scripts/loaders/page_load_time.js"></script>
+    <script src="scripts/loaders/header_load.js"></script>
+    <script src="scripts/loaders/footer_load.js"></script>
+    <script src="scripts/loaders/top_container_load.js"></script>
+    <script src="scripts/actions/active_menu.js"></script>
+    <script src="scripts/filters/filter_brands.js"></script>
+    <script src="scripts/filters/submit_filter_brands.js"></script>
+    <script src="scripts/filters/reset_filter.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="CubeStore, кубстор, головоломки">
@@ -23,7 +28,195 @@
 
 <main>
     <section class="main_container">
-
+        <div class="items_blk">
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="MsCube Ms3-V1 3x3 Magnetic">
+                    <picture>
+                        <img src="resources/main_items/MsCUBE_Ms3_V1_3x3_Magnetic.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            MsCUBE Ms3-V1 3x3 Magnetic
+                        </p>
+                        <p class="item_price">
+                            2 095 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="Gan 11 M PRO 3x3">
+                    <picture>
+                        <img src="resources/main_items/GAN_11_M_PRO.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            GAN 11 M PRO 3x3
+                        </p>
+                        <p class="item_price">
+                            4 645 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="Gan 11 AIR">
+                    <picture>
+                        <img src="resources/main_items/GAN_11_AIR.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            GAN 11 AIR
+                        </p>
+                        <p class="item_price">
+                            1 850 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="MoFangGe 4x4 VALK 4 MAGNETIC">
+                    <picture>
+                        <img src="resources/main_items/MOFANGGE_4X4_VALK_4_MAGNETIC.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            MOFANGGE 4x4 VALK 4 MAGNETIC
+                        </p>
+                        <p class="item_price">
+                            2 995 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="MoFangGe 4X4 THUNDERCLAP 62MM">
+                    <picture>
+                        <img src="resources/main_items/MOFANGGE_4X4_THUNDERCLAP_62MM.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            MOFANGGE 4X4 THUNDERCLAP 62MM
+                        </p>
+                        <p class="item_price">
+                            1 095 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="MoYu 4X4 AOSU GTS V2">
+                    <picture>
+                        <img src="resources/main_items/MOYU_4X4_AOSU_GTS_V2.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            MOYU 4X4 AOSU GTS V2
+                        </p>
+                        <p class="item_price">
+                            1 800 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="ShengShou 5X5 MR. M (MAGNETIC)">
+                    <picture>
+                        <img src="resources/main_items/SHENGSHOU_5X5_MR_M_(MAGNETIC).webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            SHENGSHOU 5X5 MR. M (MAGNETIC)
+                        </p>
+                        <p class="item_price">
+                            1 295 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="Dayan NEZHA 5M MAGNETIC CUBE">
+                    <picture>
+                        <img src="resources/main_items/DAYAN_NEZHA_5M_MAGNETIC_CUBE.webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            DAYAN NEZHA 5M MAGNETIC CUBE
+                        </p>
+                        <p class="item_price">
+                            2 445 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="item">
+                <form class="item_form">
+                    <input type="hidden" name="category" value="Кубики Рубика">
+                    <input type="hidden" name="name" value="MoFangGe 5X5 QIZHENG (S)">
+                    <picture>
+                        <img src="resources/main_items/MOFANGGE_5X5_QIZHENG_(S).webp">
+                    </picture>
+                    <div class="item_description">
+                        <p class="item_name">
+                            MOFANGGE 5X5 QIZHENG (S)
+                        </p>
+                        <p class="item_price">
+                            595 ₽
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="search_in_runtime">
+            <form class="brand_content">
+                <div>
+                    <input type="checkbox" value="MoFangGe" id="brand_MoFangGe">
+                    <label for="brand_MoFangGe">MoFangGe</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="Gan" id="brand_Gan">
+                    <label for="brand_Gan">Gan</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="MsCube" id="brand_MsCube">
+                    <label for="brand_MsCube">MsCube</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="MoYu" id="brand_MoYu">
+                    <label for="brand_MoYu">MoYu</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="ShengShou" id="brand_ShengShou">
+                    <label for="brand_ShengShou">ShengShou</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="Dayan" id="brand_Dayan">
+                    <label for="brand_Dayan">Dayan</label>
+                </div>
+                <div>
+                    <button type="submit" onclick=filter_brands() class="submit_button">Submit</button>
+                </div>
+                <div>
+                    <button type="reset" onclick=reset_filter() class="submit_button">Reset</button>
+                </div>
+            </form>
+        </div>
     </section>
 </main>
 
