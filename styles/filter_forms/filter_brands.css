@@ -20,5 +20,10 @@
     text-align: center;
     border-radius: 10px;
     background-color: #fcdea4;
+    height: 30px;
     width: 100%;
+}
+.brands_selector {
+    height: 15px;
+    width: 15px;
 }

@@ -6,6 +6,7 @@
     <link href="styles/structure_containers/top_container.css" rel="stylesheet">
     <link href="styles/structure_containers/main_container.css" rel="stylesheet">
     <link href="styles/structure_containers/footer_information.css" rel="stylesheet">
+    <link href="styles/elements/question_form.css" rel="stylesheet">
     <script src="scripts/loaders/page_load_time.js"></script>
     <script src="scripts/loaders/header_load.js"></script>
     <script src="scripts/loaders/footer_load.js"></script>
@@ -23,6 +24,17 @@
 <main>
 
     <section class="main_container">
+        <form class="question_form">
+            <div class="question_field">
+                <input type="text" placeholder="Title..." name="keyword" autocomplete="off" id="question_title" class="question_input">
+                <label for="question_title" class="question_label"></label>
+            </div>
+            <div class="question_field">
+                <textarea placeholder="Question..." name="keyword" id="question_description" class="question_input" spellcheck="true"></textarea>
+                <label for="question_description" class="question_label"></label>
+            </div>
+            <button type="submit" class="submit_button">Submit</button>
+        </form>
     </section>
 </main>
 
