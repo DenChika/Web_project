@@ -7,11 +7,13 @@
     <link href="styles/structure_containers/main_container.css" rel="stylesheet">
     <link href="styles/structure_containers/footer_information.css" rel="stylesheet">
     <link href="styles/elements/question_form.css" rel="stylesheet">
+    <link href="styles/elements/question_item.css" rel="stylesheet">
     <script src="scripts/loaders/page_load_time.js"></script>
     <script src="scripts/loaders/header_load.js"></script>
     <script src="scripts/loaders/footer_load.js"></script>
     <script src="scripts/loaders/top_container_load.js"></script>
     <script src="scripts/actions/active_menu.js"></script>
+    <script src="scripts/actions/submit_question.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="CubeStore, кубстор, головоломки">
@@ -23,18 +25,21 @@
 
 <main>
 
-    <section class="main_container">
+    <section class="main_container faq_main">
         <form class="question_form">
             <div class="question_field">
-                <input type="text" placeholder="Title..." name="keyword" autocomplete="off" id="question_title" class="question_input">
-                <label for="question_title" class="question_label"></label>
+                <input type="text" placeholder="Theme..." name="theme" autocomplete="off" id="question_theme" class="question_input">
+                <label for="question_theme" class="question_label"></label>
             </div>
             <div class="question_field">
-                <textarea placeholder="Question..." name="keyword" id="question_description" class="question_input" spellcheck="true"></textarea>
+                <textarea placeholder="Question..." name="description" id="question_description" class="question_input" spellcheck="true"></textarea>
                 <label for="question_description" class="question_label"></label>
             </div>
             <button type="submit" class="submit_button">Submit</button>
         </form>
+        <div class="stored_questions">
+
+        </div>
     </section>
 </main>
 

@@ -1,0 +1,21 @@
+.stored_questions {
+    margin-top: 50px;
+}
+.question_item {
+    margin-bottom: 50px;
+    width: 50%;
+}
+.question_item_description {
+    padding: 10px;
+    border: 2px solid black;
+    word-wrap: break-word;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: "Baskerville Old Face";
+    background-color: #fceed3;
+}
+.question_item_theme {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(250, 124, 39, 0.98);
+}
