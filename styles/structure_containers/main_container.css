@@ -8,6 +8,10 @@
     border-radius: 10px;
     padding: 10px;
 }
+.faq_main {
+    display: flex;
+    flex-direction: column;
+}
 .items_blk {
     display: block;
     width: 82%;
