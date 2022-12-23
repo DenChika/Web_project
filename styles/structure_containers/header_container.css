@@ -11,13 +11,13 @@
     margin: auto 1%;
     padding-right: 5%;
 }
-.new_products, .sales, .top_sales, .faq {
+.new_products, .sales, .top_sales, .faq, .staff {
     margin: auto 2%;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
 }
-#new_products:hover, #sales:hover, #top_sales:hover, #faq:hover {
+#new_products:hover, #sales:hover, #top_sales:hover, #faq:hover, #staff:hover {
     color: rgba(255,148,76,0.98);
 }
 .profile {

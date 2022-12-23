@@ -34,6 +34,13 @@ let headerText =
                 </a>
             </nav>
         </div>
+        <div class="staff">
+            <nav>
+                <a href="staff.html" id="staff" title="STAFF">
+                    Руководство
+                </a>
+            </nav>
+        </div>
         <div class="profile">
             <a href="#" title="Профиль">
                 <img src="https://mobile-comp.com/images/user.png">

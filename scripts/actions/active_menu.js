@@ -2,7 +2,8 @@ let pages = {
     'new_products.html': 'new_products',
     'sales.html': 'sales',
     'top_sales.html': 'top_sales',
-    'faq.html': 'faq'
+    'faq.html': 'faq',
+    'staff.html': 'staff'
 };
 
 function pageIsActive() {
