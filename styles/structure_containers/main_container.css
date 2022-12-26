@@ -18,3 +18,11 @@
     font-size: 0;
     position: relative;
 }
+#employees {
+    width: 100%;
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
