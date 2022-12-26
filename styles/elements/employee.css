@@ -1,0 +1,37 @@
+.employee {
+    width: 460px;
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 5px 5px 0px rgb(251 251 253);
+    border: 1px #e9ebef solid;
+}
+.employee_picture {
+    width: 6rem;
+    margin: 0.5rem;
+    align-self: center;
+}
+.employee_name {
+    font-weight: bold;
+}
+.employee_properties {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    margin: 0.5rem;
+}
+.employee_location {
+    font-style: italic;
+}
+#loader {
+    display: block;
+    align-self: center;
+    margin: auto;
+}
