@@ -36,7 +36,7 @@ let headerText =
         </div>
         <div class="staff">
             <nav>
-                <a href="staff.html" id="staff" title="STAFF">
+                <a href="staff.html" id="staff" title="Руководство">
                     Руководство
                 </a>
             </nav>
