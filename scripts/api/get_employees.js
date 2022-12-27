@@ -25,7 +25,6 @@ const getEmployees = async (nat, results) => {
     const employeesBlock = document.getElementById("employees")
     loader = createPreloader()
 
-    await new Promise(resolve => setTimeout(resolve, 1000));
     const employees = await Promise.all(
         await fetchUsers(nat, results)
             .then(resp => resp.results)
