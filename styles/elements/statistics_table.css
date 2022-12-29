@@ -1,0 +1,35 @@
+.table_wrap {
+    width: 100%;
+}
+.statistics_table {
+    display: grid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.statistics_table_body {
+    margin: auto;
+}
+.statistics_table td {
+    border: none;
+    padding: 7px 5px;
+}
+.statistics_table th {
+    border-top: 3px solid black;
+    padding: 5px 5px;
+    background: #fcdea4;
+}
+.statistics_table tr {
+    text-align: center;
+    background: #fcf0dd;
+}
+.statistics_table tr:nth-child(2n) {
+    background-color: #f6e6c7;
+}
+.statistics_table tr:hover td {
+    background-color: #ecfcf9;
+}
+@media screen and (max-width: 782px) {
+    .table_wrap {
+        overflow-y: scroll;
+    }
+}
